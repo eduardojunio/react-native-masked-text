@@ -55,11 +55,7 @@ return value;
 
 text,index,string){
 if(index>0){
-return(
-text.substring(0,index)+
-string+
-text.substring(index,text.length));
-
+return text.substring(0,index)+string+text.substring(index,text.length);
 }else{
 return string+text;
 }

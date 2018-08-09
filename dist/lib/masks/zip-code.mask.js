@@ -15,7 +15,7 @@ return _get(ZipCodeMask.prototype.__proto__||Object.getPrototypeOf(ZipCodeMask.p
 }},{key:'validate',value:function validate(
 
 value,settings){
-if(!!value){
+if(value){
 return value.length===ZIP_CODE_MASK.length;
 }
 

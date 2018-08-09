@@ -17,7 +17,7 @@ return this.getVMasker().toPattern(value,selectedMask);
 }},{key:'validate',value:function validate(
 
 value,settings){
-if(!!value){
+if(value){
 var selectedMask=this._getMask(settings);
 return value.length===selectedMask.length;
 }

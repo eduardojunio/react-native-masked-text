@@ -41,8 +41,7 @@ if(mergedSettings.withDDD){
 var numbersDDD=_get(CelPhoneMask.prototype.__proto__||Object.getPrototypeOf(CelPhoneMask.prototype),'removeNotNumbers',_this2).call(_this2,mergedSettings.dddMask);
 var remainingValueNumbers=numbers.substr(numbersDDD.length);
 return remainingValueNumbers.length>=9;
-}else
-{
+}else{
 return numbers.length>=9;
 }
 }();

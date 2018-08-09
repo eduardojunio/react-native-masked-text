@@ -5,10 +5,10 @@ var DEFAULT_TRANSLATION={
 '9':function _(val){
 return val.replace(/[^0-9]+/g,'');
 },
-'A':function A(val){
+A:function A(val){
 return val.replace(/[^a-zA-Z]+/g,'');
 },
-'S':function S(val){
+S:function S(val){
 return val.replace(/[^a-zA-Z0-9]+/g,'');
 },
 '*':function _(val){
@@ -24,7 +24,7 @@ CustomMask=function(_BaseMask){_inherits(CustomMask,_BaseMask);function CustomMa
 
 
 {
-return"default";
+return'default';
 }},{key:'getValue',value:function getValue(
 
 value,settings){

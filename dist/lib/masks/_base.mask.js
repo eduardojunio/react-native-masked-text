@@ -2,7 +2,7 @@ Object.defineProperty(exports,"__esModule",{value:true});var _createClass=functi
 
 BaseMask=function(){function BaseMask(){_classCallCheck(this,BaseMask);}_createClass(BaseMask,[{key:'getKeyboardType',value:function getKeyboardType()
 {
-return"numeric";
+return'numeric';
 }},{key:'getVMasker',value:function getVMasker()
 
 {
@@ -11,8 +11,12 @@ return VMasker;
 
 obj1,obj2){
 var obj3={};
-for(var attrname in obj1){obj3[attrname]=obj1[attrname];}
-for(var attrname in obj2){obj3[attrname]=obj2[attrname];}
+for(var attrname in obj1){
+obj3[attrname]=obj1[attrname];
+}
+for(var attrname in obj2){
+obj3[attrname]=obj2[attrname];
+}
 return obj3;
 }},{key:'getRawValue',value:function getRawValue(
 
